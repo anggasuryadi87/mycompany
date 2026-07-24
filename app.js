@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SINERGI SOLUSI DIGITAL - Application Script (app.js)
+   ID LINK MEDIA - Application Script (app.js)
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sumSoftPrice.textContent = formattedPrice;
 
         // Update WhatsApp Link
-        const message = `Halo Sinergi Solusi Digital, saya tertarik dengan jasa pembuatan software/aplikasi dan ingin berkonsultasi mengenai rencana proyek berikut:\n\n` +
+        const message = `Halo Id Link Media, saya tertarik dengan jasa pembuatan software/aplikasi dan ingin berkonsultasi mengenai rencana proyek berikut:\n\n` +
                         `- Platform: ${platformTexts || '-'}\n` +
                         `- Desain: ${designNames[softDesignSelect.value].split(' (+')[0]}\n` +
                         `- Fitur Tambahan: ${selectedFeaturesTexts.join(', ') || 'Tidak ada'}\n` +
@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
         summaryPrice.textContent = formattedPrice;
 
         // Update WhatsApp Order Link
-        const message = `Halo Sinergi Solusi Digital, saya tertarik dengan penawaran di website dan ingin berkonsultasi mengenai paket CCTV berikut:\n\n` +
+        const message = `Halo Id Link Media, saya tertarik dengan penawaran di website dan ingin berkonsultasi mengenai paket CCTV berikut:\n\n` +
                         `- Merek: ${brandNameMap[selectedBrand]}\n` +
                         `- Jumlah: ${selectedQty} Kamera\n` +
                         `- Resolusi: ${resTextMap[resolutionSelect.value].split(' (')[0]}\n` +
@@ -547,7 +547,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // Route details directly to WhatsApp for prompt follow up!
-            const waMessage = `Halo Sinergi Solusi Digital, saya mengirimkan formulir kontak website:\n\n` +
+            const waMessage = `Halo Id Link Media, saya mengirimkan formulir kontak website:\n\n` +
                               `- Nama: ${name}\n` +
                               `- WhatsApp: ${phone}\n` +
                               `- Email: ${email || '-'}\n` +
@@ -576,21 +576,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const articleData = {
         1: {
             title: "Tren Teknologi Cloud Native di Tahun 2026",
-            meta: "Sinergi Solusi Digital | 25 Juni 2026 | Software Development",
+            meta: "Id Link Media | 25 Juni 2026 | Software Development",
             img: "assets/hero_office.png",
-            text: "Pengembangan software saat ini dituntut untuk memiliki keandalan tinggi, arsitektur microservices, dan kemampuan deployment instan tanpa mengganggu layanan pengguna. Tren cloud-native software development telah menguasai industri aplikasi di Indonesia.\n\nDalam membangun solusi custom bagi ruko, UMKM, hingga enterprise, Sinergi Solusi Digital memprioritaskan prinsip cloud native:\n\n1. Containerization (Docker & Kubernetes) untuk fleksibilitas deploy di server cloud apa pun.\n2. Serverless Architecture untuk menekan biaya tagihan cloud server bulanan hingga 60% dengan performa tetap andal saat traffic tinggi.\n3. CI/CD (Continuous Integration / Continuous Deployment) yang menjamin updates fitur aplikasi Anda selesai tanpa downtime.\n\nDiskusikan kebutuhan custom software Anda bersama tim analis kami dan nikmati arsitektur cloud paling efisien."
+            text: "Pengembangan software saat ini dituntut untuk memiliki keandalan tinggi, arsitektur microservices, dan kemampuan deployment instan tanpa mengganggu layanan pengguna. Tren cloud-native software development telah menguasai industri aplikasi di Indonesia.\n\nDalam membangun solusi custom bagi ruko, UMKM, hingga enterprise, Id Link Media memprioritaskan prinsip cloud native:\n\n1. Containerization (Docker & Kubernetes) untuk fleksibilitas deploy di server cloud apa pun.\n2. Serverless Architecture untuk menekan biaya tagihan cloud server bulanan hingga 60% dengan performa tetap andal saat traffic tinggi.\n3. CI/CD (Continuous Integration / Continuous Deployment) yang menjamin updates fitur aplikasi Anda selesai tanpa downtime.\n\nDiskusikan kebutuhan custom software Anda bersama tim analis kami dan nikmati arsitektur cloud paling efisien."
         },
         2: {
             title: "3 Merk CCTV Terbaik di Indonesia Saat Ini",
             meta: "Sentinel Security | 14 Juni 2026 | Review Merk",
             img: "assets/hero_home.png",
-            text: "Keamanan properti Anda adalah hal yang tidak boleh ditawar. Saat hendak memasang CCTV, pemilihan merk menjadi salah satu faktor penentu ketahanan sistem, kejernihan gambar, serta kemudahan akses pemantauan online jarak jauh. Di Indonesia, pasar CCTV didominasi oleh tiga raksasa utama:\n\nHikvision\nSebagai pemimpin pasar global, Hikvision menawarkan ekosistem keamanan super lengkap. Mulai dari kamera analog HD-TVI hingga IP Camera tingkat lanjut. Keunggulan utama Hikvision terletak pada ketahanan perangkat keras yang luar biasa, teknologi ColorVu (merekam warna penuh dalam gelap gulita), dan garansi purnajual yang solid.\n\nDahua\nMenjadi kompetitor terdekat Hikvision, Dahua sangat inovatif dalam teknologi analitik video pintar. Lini produknya sangat tangguh dalam pemantauan outdoor skala besar seperti pabrik dan pergunungan. Dahua menawarkan kualitas gambar jernih dengan harga yang sangat kompetitif.\n\nHiLook\nBagi Anda yang membutuhkan sistem keamanan handal untuk rumah atau ruko dengan anggaran terbatas, HiLook adalah pilihan paling bijak. Didukung penuh oleh infrastruktur dan software Hikvision, HiLook menawarkan kemudahan instalasi, aplikasi mobile yang responsif (HiLookVision), dan sensor gambar tajam di kelasnya.\n\nSinergi Solusi Digital menyediakan paket pemasangan lengkap untuk ketiga merk di atas dengan garansi resmi dan gratis survei lokasi."
+            text: "Keamanan properti Anda adalah hal yang tidak boleh ditawar. Saat hendak memasang CCTV, pemilihan merk menjadi salah satu faktor penentu ketahanan sistem, kejernihan gambar, serta kemudahan akses pemantauan online jarak jauh. Di Indonesia, pasar CCTV didominasi oleh tiga raksasa utama:\n\nHikvision\nSebagai pemimpin pasar global, Hikvision menawarkan ekosistem keamanan super lengkap. Mulai dari kamera analog HD-TVI hingga IP Camera tingkat lanjut. Keunggulan utama Hikvision terletak pada ketahanan perangkat keras yang luar biasa, teknologi ColorVu (merekam warna penuh dalam gelap gulita), dan garansi purnajual yang solid.\n\nDahua\nMenjadi kompetitor terdekat Hikvision, Dahua sangat inovatif dalam teknologi analitik video pintar. Lini produknya sangat tangguh dalam pemantauan outdoor skala besar seperti pabrik dan pergunungan. Dahua menawarkan kualitas gambar jernih dengan harga yang sangat kompetitif.\n\nHiLook\nBagi Anda yang membutuhkan sistem keamanan handal untuk rumah atau ruko dengan anggaran terbatas, HiLook adalah pilihan paling bijak. Didukung penuh oleh infrastruktur dan software Hikvision, HiLook menawarkan kemudahan instalasi, aplikasi mobile yang responsif (HiLookVision), dan sensor gambar tajam di kelasnya.\n\nId Link Media menyediakan paket pemasangan lengkap untuk ketiga merk di atas dengan garansi resmi dan gratis survei lokasi."
         },
         3: {
             title: "Pentingnya Integrasi Custom Software & Keamanan Fisik",
-            meta: "Sinergi Solusi Digital | 10 Juni 2026 | IT Consulting",
+            meta: "Id Link Media | 10 Juni 2026 | IT Consulting",
             img: "assets/logo.png",
-            text: "Banyak pemilik bisnis memisahkan tim IT developer software dengan tim pengadaan CCTV fisik. Padahal, keajaiban sesungguhnya terjadi ketika sistem software digabungkan dengan CCTV pintar Anda!\n\nBayangkan fungsionalitas berikut:\n1. Kamera CCTV di pabrik/toko Anda mendeteksi wajah karyawan, mencocokkannya dengan database cloud software, dan mencatat absensi kerja secara otomatis tanpa perlu sensor sidik jari manual.\n2. Saat gerbang palang parkir mendeteksi plat nomor kendaraan (License Plate Recognition), data langsung dicocokkan dengan sistem inventori ruko/kantor dan mencatat waktu masuk mobil.\n3. Alarm pembobolan pintu mengirimkan cuplikan video CCTV langsung ke bot WhatsApp atau aplikasi mobile internal perusahaan.\n\nSinergi Solusi Digital memiliki keunggulan unik: kami tidak hanya jago membuat software berkelas dunia, tapi juga ahli dalam instalasi perangkat keamanan fisik. Hubungi kami untuk membangun sistem terpadu yang cerdas."
+            text: "Banyak pemilik bisnis memisahkan tim IT developer software dengan tim pengadaan CCTV fisik. Padahal, keajaiban sesungguhnya terjadi ketika sistem software digabungkan dengan CCTV pintar Anda!\n\nBayangkan fungsionalitas berikut:\n1. Kamera CCTV di pabrik/toko Anda mendeteksi wajah karyawan, mencocokkannya dengan database cloud software, dan mencatat absensi kerja secara otomatis tanpa perlu sensor sidik jari manual.\n2. Saat gerbang palang parkir mendeteksi plat nomor kendaraan (License Plate Recognition), data langsung dicocokkan dengan sistem inventori ruko/kantor dan mencatat waktu masuk mobil.\n3. Alarm pembobolan pintu mengirimkan cuplikan video CCTV langsung ke bot WhatsApp atau aplikasi mobile internal perusahaan.\n\nId Link Media memiliki keunggulan unik: kami tidak hanya jago membuat software berkelas dunia, tapi juga ahli dalam instalasi perangkat keamanan fisik. Hubungi kami untuk membangun sistem terpadu yang cerdas."
         }
     };
 
